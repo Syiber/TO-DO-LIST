@@ -1,0 +1,76 @@
+:root{
+    --White: #ffffff;
+    --blue: #2a2aedf6;
+    --green: #90ee90;
+    --red: #f44343;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-size: 1rem;
+}
+body{
+    background-color: var(--green);
+}
+.card{
+    background-color: var(--White);
+    height: 20rem;
+    width: 24rem;
+    padding: 2.5rem 2rem;
+    margin: 8rem auto;
+    border-radius: 1.25rem;
+}
+.headie{
+    font-size: 2rem;
+    padding-bottom: 0.625rem;
+}
+.input-form{
+    margin: 0.5rem 0;
+}
+input[type= "text"]{
+    outline: none;
+    height: 2rem;
+    font-size: 1.1rem;
+}
+.btn-1{
+    margin: 0 .2rem;
+    font-size: 0.7rem;
+    padding: 0.6rem 1.2rem;
+    vertical-align: middle;
+    color: var(--White);
+    border-radius: 50px;
+    background: var(--blue);
+    border: 1px solid var(--blue);
+}
+ol{
+    margin: 1rem 2rem;
+}
+.btn{
+    margin-top: .7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--White);
+}
+.bt{
+    font-size: .9rem;
+    padding: .4rem 0.7rem;
+    border-radius: 50px;
+    color: var(--White);
+    cursor: pointer;
+}
+.bt:first-child{
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+}
+.bt:nth-child(2){
+    border: 1px solid var(--red);
+    background-color: var(--red);
+}
+.bt:last-child{
+    border: 1px solid var(--green);
+    background-color: var(--green);
+}
